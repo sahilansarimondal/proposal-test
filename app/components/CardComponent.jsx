@@ -16,8 +16,7 @@ const Card = styled.div`
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 400px;
-  margin: 20px auto;
+
   text-align: center;
   position: absolute;
   top: 50%;
@@ -75,7 +74,7 @@ const CardComponent = () => {
     }
   };
   return (
-    <Card>
+    <Card className="w-5/6 sm:w-auto ">
       <Title>I Love You 💕</Title>
       <Description>Will You Be My Girlfriend?</Description>
       <ButtonContainer>
