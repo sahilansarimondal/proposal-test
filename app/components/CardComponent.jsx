@@ -58,7 +58,9 @@ const CardComponent = () => {
       return;
     } else {
       if (noCounter >= 3) {
-        toast.error("Don't do this bitch 😠");
+        toast.error(
+          "Are you afraid to fall in love with me? 😟"
+        );
         noCounter = 0;
       } else {
         noCounter++;
